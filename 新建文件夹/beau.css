@@ -11,7 +11,10 @@
 	position: 0 10px;
 }
 #label1{
-         margin-bottom: 30px;}
+         border-radius: 14px;
+         line-height: 23px;
+         width: 273px;
+         background-image: }
 .hm2{
 	float: right;
 	margin-right: 10%;
@@ -112,10 +115,14 @@
 	background-color: white;
 	padding-left: 4em;
 }
-.rh1s1{
-	color:rgb(238,238,238); ;
+.rh1s1,.rh1s1 a{
+	color:#aaa;
 	float: left;
 	font-size: 14px;
+}
+.rh1s2 a{
+	color:rgb(33,137,191);
+	text-decoration-line: none;
 }
 .rb1{
 	width: 92%;
@@ -124,17 +131,21 @@
 	background-color: white;
 	margin: 20px 0 0 7%;
 }
+.rb1 label{
+	color: #aaa;
+}
 .rb1d1{
 	width: 16%;
 	float: left;
 	margin-left: 3%;
 }
 .rb1d2{
-	width: 8%;
+	width: 9%;
 	float: left;
 }
 .rb1d2i{
 	float: left;
+	margin-right: 60px;
 }
 .rb1d3{
 	width: 35%;
@@ -142,11 +153,11 @@
 
 }
 .rb1d31{
-	width: 40%;
+	width: 45%;
 	float: left;	
 }
 .rb1d32{
-	width: 30%;
+	width: 35%;
 	float: left;
 }
 .rb1b1{
@@ -154,4 +165,12 @@
 	margin-top: 1%;
 	background-color: rgb(33,137,191);
 	color: white;
+}
+.rb2 button{
+	background-image: url(./firstsc/close_arrow.png ) no-repeat;
+
+	width: 29px;
+	height: 65px;
+
+
 }
