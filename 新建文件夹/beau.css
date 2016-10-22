@@ -125,7 +125,7 @@
 	text-decoration-line: none;
 }
 .rb1{
-	width: 92%;
+	width: 86.1%;
 	height: 5%;
 	padding-top: 1%;
 	background-color: white;
@@ -140,7 +140,7 @@
 	margin-left: 3%;
 }
 .rb1d2{
-	width: 9%;
+	width: 14%;
 	float: left;
 }
 .rb1d2i{
@@ -153,7 +153,7 @@
 
 }
 .rb1d31{
-	width: 45%;
+	width: 47%;
 	float: left;	
 }
 .rb1d32{
@@ -161,16 +161,120 @@
 	float: left;
 }
 .rb1b1{
+	width: 50px;
+	height: 30px;
 	float: left;
 	margin-top: 1%;
 	background-color: rgb(33,137,191);
 	color: white;
 }
+.rb2{
+	width: 92%;
+	height: 6%;
+	padding-top: 1%;
+	margin: 20px 0 0 7%;
+}
 .rb2 button{
-	background-image: url(./firstsc/close_arrow.png ) no-repeat;
-
+	background: white url(./firstsc/close_arrow.png ) no-repeat;
+	background-position: 8px 30px;
+    float: left;
 	width: 29px;
+	height: 77px;
+}
+.button2{
+	margin-right: 7px;
+}
+.rb2 li{
+	float: left;
+	width: 111px;
 	height: 65px;
-
+	margin-left: 7px;
+	margin-right: 3.5px;
+	text-align: center;
+	padding-top: 12px;
+	background-color: white;
 
 }
+.rb2 span{
+	color: #ec6602;
+	font-size: 21px;	
+}
+.rb2 time{
+	color: #323333;
+	font-size: 12px;
+}
+.history{
+	width: 136px;
+	height: 77px;
+	float: left;
+	margin-left: 7px;
+	background: white url(./firstsc/QQ截图20161022131318.png) no-repeat;
+    background-position:10px 10px;
+}
+.history a {
+      float: right;
+      margin:25px 30px 0 10px;
+}
+
+.history a:hover {
+	color: #323333;
+	font-size: 12px;
+}
+.rb3{
+	width: 92%;
+	height: 6%;
+	padding-top: 1%;
+	margin: 20px 0 0 7%;
+}
+.rb3 li{
+	width: 200px;
+	height: 57px;
+	margin-right: 36.5px;
+	padding-left: 5px;
+	float: left;
+	background-color: white;
+}
+.rb3 div{
+	float: left;
+}
+.rb31{
+	width: 60px;
+	height: 48px;
+	margin:2% 2% 0 40%;
+}
+.a{
+	width: 57px;
+	float: right;
+	background-color:#43b29d;
+}
+.b{
+	background-color:#388ac1;
+}
+.c{
+	background-color: rgb(208,75,54);
+}
+.d{
+	background-color: rgb(226,205,70);
+}
+.rb3 h3{
+	color: #323333;
+	font-size: 100%;
+}
+.rb32 span{
+	color: red；
+	font-size:12px;
+	line-height: 24px;
+}
+.rb3 li{
+	height: 80px;
+}
+.rb3 li div{
+	margin:10% 22% 0 auto;
+}
+.rb32{
+	margin-left: 30px;
+}
+67，187,157
+56,138，193
+208,75,54
+226,205,70
