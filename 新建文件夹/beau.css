@@ -102,16 +102,56 @@
 	line-height: 35px;
 }
 .rside{
-	background-color: blue;
+	background-color: rgb(238,238,238);
 	height: 1215px;
 	width: 80%;
 	float: right;
 }
+
+.rh1{
+	background-color: white;
+	padding-left: 4em;
+}
 .rh1s1{
-	color: red;
+	color:rgb(238,238,238); ;
+	float: left;
 	font-size: 14px;
 }
-.rh1{
-	color: red;
-	float: right;
+.rb1{
+	width: 92%;
+	height: 5%;
+	padding-top: 1%;
+	background-color: white;
+	margin: 20px 0 0 7%;
+}
+.rb1d1{
+	width: 16%;
+	float: left;
+	margin-left: 3%;
+}
+.rb1d2{
+	width: 8%;
+	float: left;
+}
+.rb1d2i{
+	float: left;
+}
+.rb1d3{
+	width: 35%;
+	float: left;
+
+}
+.rb1d31{
+	width: 40%;
+	float: left;	
+}
+.rb1d32{
+	width: 30%;
+	float: left;
+}
+.rb1b1{
+	float: left;
+	margin-top: 1%;
+	background-color: rgb(33,137,191);
+	color: white;
 }
