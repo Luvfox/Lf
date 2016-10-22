@@ -120,6 +120,10 @@
 	float: left;
 	font-size: 14px;
 }
+.rh1s1 a{
+	text-decoration: none;
+}
+
 .rh1s2 a{
 	color:rgb(33,137,191);
 	text-decoration-line: none;
