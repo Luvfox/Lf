@@ -1,0 +1,28 @@
+.header{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 9999;
+    display: block;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px;
+    font-size: 18px;
+    user-select: none;
+    margin: 0px;
+    background: #333;
+}
+.header ul{
+    margin-left: 10%;
+    margin-top: 0.8%;	
+}
+.header li{
+	float: left;
+	margin-left: 5%;
+
+}
+.header a{
+	color: white;
+}
