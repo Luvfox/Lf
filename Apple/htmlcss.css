@@ -222,30 +222,100 @@
     height: 0px;
     border-top: 0.5px #d9dadc solid;
 }
-.thirdBlockH1{
+.fourthBlockH1{
     font-weight: 200;
     font-size: 3rem;
     margin-left: 41.5%;
-    margin-top: 50px;
+    margin-top: 60px;
 }
-.fourBlockDivTwo{
+.fourthBlockMother{
+    border-bottom: #f1f1f1 2px solid;
+    height: 480px;
+}
+.fourthBlockDivTwo{
+    margin:70px auto;
     width: 75%;
     height:27%;
 }
-.fourBlockDivTwo img{
+.fourthBlockDivTwo img{
     width: 240px;
     height: 150px;
 }
-.fourBlockDivTwoLeft{
-    width: 48%;
+.fourthBlockDivTwoLeft{
+    width: 40%;
+    margin-left: 3%;
+    float: left;
 }
-.fourBlockDivTwoRight{
-    width: 48%;
+.fourthBlockDivTwoRight{
+    width: 40%;
+    margin-left: 14%;
+    float: left;
 }
 
-
-
-
-
-
-
+.fourthBlockH2 {
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.fourthBlockH3 {
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.fourthBlockDivTwoLeft div p{
+    font-size: 1.1rem;
+    line-height: 1.75;
+    font-weight: 400;
+    color: #333;
+}
+.fourthBlockDivTwo h1{
+    margin-top: 10px;
+}
+.fourthBlockDivTwo p{
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #333;
+}
+.fourthBlockDivTwo a{
+    font-size: 1rem;
+    color: #08c;
+    margin-top: 50px;
+}
+.fifthBlockMother{
+    height: 367px;
+}
+.fifthBlockMiddleDiv{
+    width: 60%;
+    height: 367px;
+    margin:0 auto;
+    padding-top: 54px;
+}
+.fifthBlockLeft{
+    width: 47%;
+    margin-right: 0;
+}
+.fifthBlockLeft h1{
+    font-size: 2.5rem;
+    line-height: 1.3;
+    margin-bottom: .7em;
+    font-weight: 200;
+}
+.fifthBlockLeft p{
+    font-size: 1.3rem;
+    line-height: 2;
+    font-weight: 200;
+    margin-bottom: 7%;
+}
+.fifthBlockLeft span{
+font-size:0.9rem;
+color: #08c;
+}
+.fifthBlockRight{
+    width: 47%;float: right;
+}
+.fifthBlockRight img{
+    width: 400px;
+    height: 212px;
+}
