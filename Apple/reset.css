@@ -18,3 +18,9 @@ a:hover{color:#bd0a01;text-decoration:underline;}
 a.lcblue{color:#0F479C;}
 a.lchot{color:#bd0a01;}
 .lchot{color:#bd0a01;}
+.clearfix:after{
+	clear: both;
+}
+a:hover{
+	text-decoration: none;
+}
