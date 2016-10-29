@@ -131,24 +131,24 @@
 
 .firstBlockInput{
     height: 52px;
-    width: 480px;
+    width: 595px;
     margin-left: -40%;
     background: #fff;
-    padding-left: 50px;
-    padding-right: 50px;
     border: 1px solid #bbb;
     outline: 0;
     border-radius: 3px;
     letter-spacing: normal;
     color: #999;
+    float: left;
+    margin-left: 0.001%;
 }
 
-.firstBlockFormMother{
+.firstBlockDivMother{
     width: 300px;
     height: 56px;
     margin:5% auto;
 }
-.firstBlockForm{
+.firstBlockDiv{
     margin-left: -53%;
     width: 700px;
     height: 56px;
@@ -159,10 +159,6 @@
     color: white;
     background-image: url(./sucai/image_large.svg);
     float: left;
-}
-.firstBlockInput{
-    float: left;
-    margin-left: 0.001%;
 }
 .firstBlockButtonTwo{
     width: 25px;
@@ -184,8 +180,9 @@
     padding-left: 30%;
 }
 .secondBlockPictureMom{
-    width: 100%;
+    width: 90%;
     height: 300px;
+    margin:0 auto;
 }
 .secondBlockPicture {
     float: left;
@@ -230,9 +227,7 @@
 }
 
 
-.secondBlockPictureMom{
-    padding-left: 5%;
-}
+
 
 .thirdBlockMother{
     width: 100%;
@@ -321,6 +316,7 @@
     margin-top: 50px;
 }
 .fifthBlockMother{
+    border-bottom: #f1f1f1 2px solid;
     height: 367px;
 }
 .fifthBlockMiddleDiv{
@@ -331,6 +327,7 @@
 }
 .fifthBlockLeft{
     width: 47%;
+    float: left;
 }
 .fifthBlockLeft h1{
     font-size: 2.5rem;
@@ -358,15 +355,56 @@ color: #08c;
     height: 212px;
 }
 .sixthBlockMother{
+    width: 100%;
+    height: 330px;
+    border-bottom: #f1f1f1 2px solid;
+}
+.sixthMiddleBlock{
     width: 75%;
     height: 370px;
+    margin:0 auto;
+
 }
-.sixthBlockTop{
-    margin-top: 88px;
-    margin-bottom: 20px;
+.sixthMiddleBlock img{
+    display: block;
+    margin:88px auto 20px;
+    width: 80px;
+    height: 80px;
+
 }
 .sixthBlockBottom h1{
     font-weight: 200;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     letter-spacing: -0.014em;
+}
+.sixthBlockBottom{
+    height: 184px;
+
+}
+.sixthBlockBottom h1,p{
+    text-align: center;
+}
+.sixthBlockBottom h1{
+    font-weight: 200;
+    letter-spacing: -0.014em;
+    font-size: 3.25rem;
+    line-height: 1.125;
+}
+.sixthBlockBottom p{
+    font-weight: 400;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    font-size: 1.125rem;
+    line-height: 1.45;
+
+}
+.sixthBlockBottomA{
+    padding-left: 47%;
+}
+.sixthBlockBottomA span{
+    color: #08c;
+
 }
