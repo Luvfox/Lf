@@ -133,7 +133,6 @@
 .firstBlockInput{
     height: 52px;
     width: 100%;
-    background: black;
     padding-left: 25px;
     background-image: url(./Pic/image_large.svg);
     border: 1px solid #bbb;
@@ -458,4 +457,61 @@ color: #08c;
 }
 .blueSpan{
     color: blue;
+}
+.getHelpDivMother{
+    height: 310px;
+    border-bottom: #f1f1f1 2px solid;
+}
+.getHelpH1 h1{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.getHelpMiddleDiv{
+    width: 40%;
+    height: 310px;
+    margin:0 auto;
+}
+.getHelpH2P1 h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.getHelpH2P1 p{
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.getHelpButtonDiv{
+    height: 30px;
+}
+.getHelpButtonDiv button{
+    top:0;
+    bottom:0;
+    width: 87px;
+    height: 35px;
+    margin-left: 40%;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-shadow: rgba(28, 115, 184, 0.639216) 0px 1px 1px;
+    white-space: nowrap;
+    background: linear-gradient(rgb(66, 161, 236), rgb(0, 112, 201));
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 119, 204);
+    border-image: initial;
+    border-radius: 4px;
+    padding: 0px 15px;
+}
+.lectureDiv{
+    height: 518px;width: 100%;
+}
+.lectureMiddleDiv{
+    height: 518px;
+    width: 75%;
+    margin:0 auto;
+    background-image: url(../Pic/lecture.png);
 }
