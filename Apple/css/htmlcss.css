@@ -4,31 +4,27 @@
     height: 100%;
 }
 .header{
-	position: absolute;
     top: 0px;
     right: 0px;
     left: 0px;
     z-index: 9999;
     display: block;
     width: 100%;
-    min-width: 1024px;
     height: 48px;
     max-height: 44px;
     font-size: 18px;
     user-select: none;
     margin: 0px;
     background: #333;
-    margin-bottom: 10px;
 }
 .header ul{
     display: block;
     width: 80%;
-    height: 44px;
+    height: 47px;
 
   /*  margin-left: 10%;
     margin-top: 0.8%;*/	
     margin: 0 auto;
-    text-align: center;
 }
 .clearfix:after{
     clear: both;
@@ -70,6 +66,7 @@
 .headerSpecialSpan{
     color:  #6e6e6f;
     line-height: 44px;
+    font-size: 2px;
 }
 .headerLi a:hover{
     text-decoration:none;
@@ -77,31 +74,33 @@
 .firstBlockMother{
     width: 100%;
     height: 625px;
-    background: url(./sucai/QQ截图20161028164717.png);
+    background: url(../Pic/QQ截图20161028164717.png);
+    background-size: 100% 100%;
 }
 .floatMother{
     height: 50px;
 }
 .floatMother span,li{
-    font-size: 28px;
+    font-size: 13px;
 
 }
 .floatMiddleDiv{
     width: 73.6%;
     height: 55px;
-    margin:15px auto;
-    margin-top: 50px;
+    margin:0 auto;
 }
 .floatSonSpan{
     float: left;
     height: 48px;
-    margin-left: 3.6%;
+    font-size: 5px;
+    margin-left: -1.5%;
     margin-top: 15px;
 }
 .floatSonDiv{
     float: right;
     width: 100px;
     height: 48px;
+    font-size: 5px;
     margin-right: 0;
     margin-top: 15px;
 
@@ -117,10 +116,10 @@
     margin-left: 4.1%;
 }
 .firstBlockChar{
-    margin:7% 30% 0 40%;
+    margin:3% 30% 0 40%;
 }
 .welcometitleOne{
-    width: 700px;
+    width: 116%;
     margin-left: -20%;
     font-weight: 300;
     font-size: 3rem;
@@ -133,43 +132,33 @@
 
 .firstBlockInput{
     height: 52px;
-    width: 595px;
-    margin-left: -40%;
-    background: #fff;
+    width: 100%;
+    background: black;
+    padding-left: 25px;
+    background-image: url(./Pic/image_large.svg);
     border: 1px solid #bbb;
     outline: 0;
     border-radius: 3px;
     letter-spacing: normal;
     color: #999;
     float: left;
-    margin-left: 0.001%;
+    margin:0 auto;
+    font-size: 20px;
 }
 
 .firstBlockDivMother{
     width: 300px;
     height: 56px;
-    margin:5% auto;
+    margin:4% auto;
 }
 .firstBlockDiv{
-    margin-left: -53%;
-    width: 700px;
-    height: 56px;
-}
-.firstBlockButtonOne{
-    width: 25px;
-    height: 56px;
-    color: white;
-    background-image: url(./sucai/image_large.svg);
-    float: left;
-}
-.firstBlockButtonTwo{
-    width: 25px;
-    height: 56px;
-    color: white;
+    margin:49px auto;
+    width: 41%;
 
-    float: left;
-    margin-left: 0;
+    height: 56px;
 }
+
+
 .secondBlockMother{
     width: 100%;
     height: 340px;
@@ -182,7 +171,7 @@
     padding-left: 30%;
 }
 .secondBlockPictureMom{
-    width: 90%;
+    width: 78%;
     height: 300px;
     margin:0 auto;
 }
@@ -280,6 +269,9 @@
     margin-left: 3%;
     float: left;
 }
+.fourthBlockDivTwoLeft img{
+    margin:0 auto;
+}
 .fourthBlockDivTwoRight{
     width: 40%;
     margin-left: 14%;
@@ -369,8 +361,9 @@ color: #08c;
 }
 .sixthMiddleBlock img{
     display: block;
-    margin:88px auto 20px;
     width: 80px;
+    margin:88px auto;
+    margin-bottom: 20px;
     height: 80px;
 
 }
@@ -435,10 +428,34 @@ color: #08c;
 }
 .seventhBlockTop p{
     margin-top: 18px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.45;
 }
 .seventhBlockBottom{
     background: #f5f5f5;
-    height: 245px;
+    height: 242px;
+}
+.seventhBlockBottom img{
+    display: block;
+    width: 40px;
+    margin:30px auto;
+}
+.seventhBlockBottom div{
+    float: left;
+    width: 20%;
+    padding:0 60px;
+    height: 162px;
+}
+.seventhBlockBottom p{
+    margin:10px 0;
+}
+.seventhBlockBottom a:hover{
+    color: blue;
+}
+.seventhBlockBottom >a{
+    width: 100%;
+    height: 100%;
+}
+.blueSpan{
+    color: blue;
 }
