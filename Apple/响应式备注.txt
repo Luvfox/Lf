@@ -1,0 +1,40 @@
+	header Middle变成73%
+1070是个档，
+1070下choose部分变两行，一行三个图片，上60下155px。theme部分一行变两行，一行一个大图，
+同时标题变小，高度增加46px。security部分变两行，字上图下。community部分不变。repair
+部分三块灰色div竖行排列。support部分不变。lecture部分不变。plan部分不变。footer不变。
+
+welcome减小60px。float部分之前不变，之后变短。
+
+*******一档问题：百分比缩放，固定宽度?  ***********
+       lecture 部分图片的位置	
+         input标签位置问题
+
+
+980
+是个档
+welcome部分宽度定义宽度，position属性定义为center；
+34px width————69px width
+
+
+
+980
+之前header部分中间部分不变，两边margin缩小。
+text-align:center;
+margin:0 auto;
+
+
+
+
+
+767px：
+      footer 部分开始变化
+      header部分中部发生变化
+      footer部分由并排div变为列表形式；
+735px下：
+      firstBlock部分变空白，背景流失
+       choose部分変三行，一行两幅；
+       theme部分结构改变，图片与文字不在一行显示；
+      security部分不变；
+      communication一直到gethelp部分不作改变；
+      lecture部分结构改变，图片在上，文字在下；

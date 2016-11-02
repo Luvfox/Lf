@@ -9,7 +9,6 @@
     left: 0px;
     z-index: 9999;
     display: block;
-    width: 100%;
     height: 48px;
     max-height: 44px;
     font-size: 18px;
@@ -19,11 +18,11 @@
 }
 .header ul{
     display: block;
-    width: 80%;
     height: 47px;
 
   /*  margin-left: 10%;
     margin-top: 0.8%;*/	
+    max-width: 980px;
     margin: 0 auto;
 }
 .clearfix:after{
@@ -42,17 +41,18 @@
     width: 52px;
     height: 44px;
     margin-top: 0;
-    margin-left: 6%;
+    margin-left: 6.715%;
     float: left;
 }
 
 .headerLi a{
     color: white;
-    font-size: 17px;
+    font-size: 14px;
+    float: right;
 }
 .headerLi p{
-    font-size: 15px;
-    margin-top: 15px;
+    font-size: 14px;
+    margin-top: 12px;
     width: 71px;
 }
 .headerLiEight{
@@ -65,6 +65,15 @@
     height: 29px;
     font-weight: 10;
 
+}
+.headerLiOne{
+    margin-left: 0;
+
+}
+.headerLiNine{
+    margin-right: 0;
+    float: right;
+    width: 25px;
 }
 .headerLiOne img{
     margin-top: 3px;
@@ -79,6 +88,29 @@
 }
 .headerLiOne a:hover{
     background: url("../Pic/apple.png");
+}
+.headerLiSeven p{
+    color:#6e6e6f;
+}
+.headerLiEight a{
+    display: block;
+    height: 32px;
+    width: 21px;
+    background-image: url("../Pic/image_large.svg");
+
+}
+.headerLiEight a:hover{
+    background-image: url("../Pic/search.png");
+}
+.headerLiNine a{
+    display: block;
+    height: 32px;
+    width: 19px;
+    margin-top: 5%;
+    background-image: url("../Pic/image_large 6.svg");
+}
+.headerLiNine a:hover{
+    background-image: url("../Pic/bag.png");
 }
 /*.headerLiOne{
     image-rendering: url(../Pic/apple.png)
@@ -131,8 +163,9 @@
 .firstBlockMother{
     width: 100%;
     height: 625px;
-    background: url(../Pic/QQ截图20161028164717.png);
-    background-size: 100% 100%;
+    background: url(../Pic/homepage-hero.image.large_2x.jpg);
+    background-size:1800px 680px;
+    background-position: center;
 }
 .floatMother{
     height: 50px;
@@ -142,15 +175,16 @@
 
 }
 .floatMiddleDiv{
-    width: 73.6%;
+    max-width: 980px;
+    margin: 0 auto;    
     height: 55px;
     margin:0 auto;
+    border-bottom: #bbbabe 1px solid;
 }
 .floatSonSpan{
     float: left;
     height: 48px;
     font-size: 5px;
-    margin-left: 2.5%;
     margin-top: 15px;
 }
 .floatSonDiv{
@@ -173,28 +207,28 @@
     margin-left: 4.1%;
 }
 .firstBlockChar{
-    margin:3% 30% 0 40%;
+    height: 147px;
+    text-align: center;
+    width: 100%;
 }
 .welcometitleOne{
-    width: 116%;
-    margin-left: -20%;
+    width: 100%;
     font-weight: 300;
+    margin-top: 3%;
     font-size: 3rem;
 }
 .welcometitleTwo{
-    margin-left: 17%;
-    margin-top: 8%;
+    margin-top: 3%;
     font-size: 1.5rem;
 }
 
 .firstBlockInput{
     height: 52px;
-    width: 100%;
+    width: 700px;
     padding-left: 25px;
-    background-image: url(url("commons/ac-assets/ac-toolkit/images/svg/search_icon_black.svg");
-    border: 1px solid #bbb;
+    background-image: url(../Pic/search_icon_black 1.svg);
     outline: 0;
-    border-radius: 3px;
+    border-radius: 0px;
     letter-spacing: normal;
     color: #999;
     float: left;
@@ -203,20 +237,20 @@
 }
 
 .firstBlockDivMother{
+    margin-top: -1%;
     width: 300px;
     height: 56px;
     margin:4% auto;
 }
 .firstBlockDiv{
     margin:49px auto;
-    width: 41%;
+    width: 50%;
 
     height: 56px;
 }
 
 
 .secondBlockMother{
-    width: 100%;
     height: 340px;
 }
 .secondBlockLetter{
@@ -227,13 +261,33 @@
     padding-left: 30%;
 }
 .secondBlockPictureMom{
-    width: 78%;
+    max-width: 1024px;
     height: 300px;
     margin:0 auto;
 }
+.productionSpanAppleWatch{
+    margin-left: 11%;
+}
+.productionSpanIphone{
+    margin-left: 18%;
+
+}
+.productionSpanIpad{
+    margin-left: 40%;
+}
+.productionSpanMac{
+    margin-left: 50%;
+
+}
+.productionSpanAppleID{
+    margin-left: 15%;
+}
+.productionSpanITunes{
+    margin-left: 20%;
+}
 .secondBlockPicture {
     float: left;
-    margin-left: 5%;
+    margin-left: 4.5%;
     width: 120px;
     height: 153px;
 }
@@ -308,20 +362,23 @@
     margin-top: 60px;
 }
 .fourthBlockMother{
-    border-bottom: #f1f1f1 2px solid;
+    border-bottom: #dedede 1px solid;
     height: 480px;
 }
+.fourthBlockDivOne{
+    padding-bottom: 70px;
+}
 .fourthBlockDivTwo{
-    margin:70px auto;
-    width: 75%;
-    height:27%;
+    margin:0 auto;
+    width: 980px;
+    height:345px;
 }
 .fourthBlockDivTwo img{
     width: 240px;
     height: 150px;
 }
 .fourthBlockDivTwoLeft{
-    width: 40%;
+    width: 46%;
     margin-left: 3%;
     float: left;
 }
@@ -329,8 +386,8 @@
     margin:0 auto;
 }
 .fourthBlockDivTwoRight{
-    width: 40%;
-    margin-left: 14%;
+    width: 400px;
+    margin-left: 79px;
     float: left;
 }
 
@@ -366,7 +423,7 @@
     margin-top: 50px;
 }
 .fifthBlockMother{
-    border-bottom: #f1f1f1 2px solid;
+    border-bottom: #dedede 1px solid;
     height: 367px;
 }
 .fifthBlockMiddleDiv{
@@ -401,13 +458,12 @@ color: #08c;
     margin-left: 0;
 }
 .fifthBlockRight img{
-    width: 400px;
     height: 212px;
 }
 .sixthBlockMother{
     width: 100%;
     height: 330px;
-    border-bottom: #f1f1f1 2px solid;
+    border-bottom: #dedede 1px solid;
 }
 .sixthMiddleBlock{
     width: 75%;
@@ -462,7 +518,7 @@ color: #08c;
 .seventhBlockMother{
     width: 100%;
     height: 490px;
-    border-bottom: #f1f1f1 2px solid;
+    border-bottom: #dedede 1px solid;
 }
 .seventhBlockTop,.seventhBlockBottom{
     text-align: center;
@@ -496,7 +552,20 @@ color: #08c;
     width: 40px;
     margin:30px auto;
 }
-.seventhBlockBottom div{
+ 
+.seventhBlockBottomSonOne {
+    float: left;
+    width: 17%;
+    padding:0 60px;
+    height: 162px;
+}
+.seventhBlockBottomSonTwo {
+    float: left;
+    width: 20%;
+    padding:0 60px;
+    height: 162px;
+}
+.seventhBlockBottomSonThree {
     float: left;
     width: 20%;
     padding:0 60px;
@@ -533,7 +602,7 @@ color: #08c;
 }
 .getHelpDivMother{
     height: 310px;
-    border-bottom: #f1f1f1 2px solid;
+    border-bottom: #dedede 1px solid;
 }
 .getHelpH1 h1{
     font-size: 25px;
@@ -542,7 +611,7 @@ color: #08c;
     text-align: center;
 }
 .getHelpMiddleDiv{
-    width: 40%;
+    width: 55%;
     height: 310px;
     margin:0 auto;
 }
@@ -582,7 +651,7 @@ color: #08c;
 .lectureDiv{
     height: 600px;
     width: 100%;
-    border-bottom: #f1f1f1 2px solid;
+    border-bottom: #dedede 1px solid;
 }
 .lectureMiddleDiv{
     height: 430px;
@@ -590,7 +659,8 @@ color: #08c;
     margin:0 auto;
     padding:;
     background-image: url(../Pic/lecture.png);
-    background-size: 100%;
+    background-width:965px;
+    background-position:-77px 0;
 }
 .lectureDivLetter h1{
     font-weight: 200;
@@ -639,6 +709,10 @@ color: #08c;
 }
 .lectureBlockDivBottomMiddleBottom a{
     margin-left: 35%;
+
+}
+.lectureBlockDivBottomMiddleBottom a:hover{
+    color: blue;
 }
 .lectureBlockDivBottomMiddleBottom span{
     color: blue;
@@ -646,7 +720,7 @@ color: #08c;
 }
 .expandPlanDiv{
     height: 380px;
-    border-bottom: #f1f1f1 2px solid;
+    border-bottom: #dedede 1px solid;
 }
 .expandPlanMiddleDiv{
     text-align:center;
@@ -654,6 +728,9 @@ color: #08c;
     height: 330px;
     margin:0 auto;
     padding-top: 48px;
+}
+.expandPlanMiddleDiv a:hover{
+    color: blue;
 }
 .expandPlanMiddleDiv h2{
     margin-bottom: 50px;
@@ -693,7 +770,7 @@ color: #08c;
     float: left; 
 }
 .footerMiddleDivBottomTop{
-    border-bottom: 1px solid #d6d6d6;
+    border-bottom: #dedede solid #d6d6d6;
     height: 30%;
 }
 .footerMiddleDivBottomBottom{
