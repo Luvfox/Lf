@@ -57,6 +57,9 @@
 	.seventhBlockMother{
 		height: 851px;
 	}
+	.seventhBlockBottom{
+		background: white;	
+	}
 	..seventhBlockBottom img{
 		margin-top: 0;
 	}
@@ -93,10 +96,91 @@
 	@media screen and (max-width:980px) {
 		.firstBlockMother{
 			background-width:1068px;
-			
+				
+		}
+		.firstBlockDiv{
+			width: 80%;
+		}
+		.firstBlockInput{
+			width: 100%;
 		}
 		
 	}
+	@media screen and (max-width:767px) {
+		/*.headerLiTwo,.headerLiThree,.headerLiFour,.headerLiFive,.headerLiSix,.headerLiSeven,.headerLiEight{*/
+			
+		.NoneDiv li{
+			display: none;
+		}
+		.headerLiOne a{
+			background-image: url(../Pic/=.png);
+		}
+		.headerLiOne a:hover{
+			background-image: url(../Pic/=hover.png);
+		}
+		.NoneDiv{
+			width: 20px;
+			height: 44px;	
+			float: left;
+			margin-left: 40%;
+			background-image: url(../Pic/bigapple.png);;
+		}
+		.NoneDiv:hover{
+			background-image: url(../Pic/biggrayapple.png);
+		}
+		.none{
+			display: none;
+		}
+		.footerMiddleDivMiddleSon h3{
+			display: none;
+		}
+		.footerMiddleDivMiddleSon{
+			width: 90%;
+			height: 38px;
+            border-top: #bbbabe 1px solid;
+            border-bottom: #bbbabe 1px solid;
+
+
+		}
+		.footerMiddleDivMiddleSon li{
+			width: 63px;
+			height: 38px;
+		}
+		.service{
+			float: left;
+			background-image: url(../Pic/littleFooterOne.png);
+			background-width:63px;
+
+		}
+		.plan{
+			float: left;
+			background-image: url(../Pic/littleFooterTwo.png);
+			background-width:29px;
+
+		}
+		
+		.resourse{
+			float: left;
+			background-image: url(../Pic/littleFooterThree.png);
+			background-width:27px;
+
+		}
+		.colume{
+			float: left;
+			background-image: url(../Pic/littleFooterFour.png);
+			background-width:38px;
+		}
+		.plus{
+			float: right;
+			width: 63px;
+			height: 38px;
+			background-image: url(../Pic/plus.png);
+			background-width:15px;
+
+		}
+
+	}
+
 	
 
 
