@@ -173,13 +173,26 @@
 			background-image: url(../Pic/littleFooterFour.png);
 			background-width:38px;
 		}
-		.plus{
+	/*	.plus{
 			float: right;
 			width: 63px;
 			height: 38px;
 			background-image: url(../Pic/plus.png);
 			background-width:15px;
 
+		}*/
+		.footerMiddleBottomBottomRightDiv{
+			float: left;
+			width: 100%;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.footerMiddleBottomBottomRightDiv a{
+			float: left;
+		}
+		.footerMiddleDivMiddle{
+			height: 177px;
+			width: 	100%;
 		}
 
 	}

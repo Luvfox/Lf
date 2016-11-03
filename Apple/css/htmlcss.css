@@ -749,7 +749,7 @@ color: #08c;
 }
 .expandPlanMiddleDiv{
     text-align:center;
-    width: 75%;
+    width: 300px;
     height: 330px;
     margin:0 auto;
     padding-top: 48px;
@@ -794,6 +794,10 @@ color: #08c;
     height: 142px;
     float: left; 
 }
+.footerMiddleDivMiddleSon li{
+    margin-bottom: 2px;
+    font-size: 11px;
+}
 .footerMiddleDivBottomTop{
     border-bottom: #dedede solid 1px;
     height: 30%;
@@ -818,12 +822,10 @@ color: #08c;
 }
 .footerMiddleDivMiddleSon h3{
     font-weight: 600;
+    margin-bottom: 8px;
 
 }
-.footerMiddleDivMiddleSon li{
-    font-size: 11px;
 
-}
 .footerMiddleDivBottomTop span{
     color: blue;
 
