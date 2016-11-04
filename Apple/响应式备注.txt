@@ -24,7 +24,7 @@ text-align:center;
 margin:0 auto;
 
 
-
+*********780px像素下choose部分图标排序问题
 
 
 767px：
@@ -32,7 +32,7 @@ margin:0 auto;
       header部分中部发生变化
       footer部分由并排div变为列表形式；
 735px下：
-      firstBlock部分变空白，背景流失
+      firstBlock変两行
        choose部分変三行，一行两幅；
        theme部分结构改变，图片与文字不在一行显示；
       security部分不变；

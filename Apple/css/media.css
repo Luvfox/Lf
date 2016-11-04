@@ -1,0 +1,193 @@
+@media screen and (max-width: 1070px){
+	.firstBlockMother{
+		height: 565px;
+	}
+	.secondBlockMother{
+		height: 555px;
+	}
+	.secondBlockPicture{
+		margin-left: 136px;
+		margin-top: 50px;
+	}
+	.secondBlockPictureMom{
+		max-width: 830px;
+	}
+	.fourthBlockDivTwoLeft{
+		margin-left: 0;
+		width: 87%;
+	}
+	.fourthBlockDivTwoLeft img{
+		float: left;
+		margin-right: 5%;
+	}
+	.fourthBlockDivTwoRight{
+		margin-left: 0;
+		margin-top: 6%;
+		width: 87%;
+	}
+	.fourthBlockDivTwoRight img{
+		float: left;
+		margin-right: 5%;
+	}
+	.fourthBlockMother{
+		height: 535px;
+	}
+	.fifthBlockMother{
+		height: 550px;
+	}
+	.fifthBlockLeft{
+		text-align: center;
+		height: 220px;
+		width: 100%;
+		font-size: 10px;
+	}
+	.fifthBlockLeft p{
+		font-size: 1.2rem;
+	}
+	.fifthBlockRight{
+		width: 100%;
+	}
+	.fifthBlockRight img{
+		margin-left: 17%;
+	}
+	.seventhBlockMother{
+		height: 851px;
+	}
+	..seventhBlockBottom img{
+		margin-top: 0;
+	}
+    .seventhBlockBottomSonOne{
+		width: 85%;
+		float: none;
+		height: 210px;
+		padding-top: 20px;
+		border-bottom: 1px rgb(222,222,222) solid;
+        background: #f5f5f5;
+	}
+	.seventhBlockBottomSonTwo{
+		width: 85%;
+        background: #f5f5f5;
+        height: 210px;
+		padding-top: 20px;
+		border-bottom: 1px rgb(222,222,222) solid;
+		float: none;
+	}
+	.seventhBlockBottomSonThree{
+		width: 85%;
+        background: #f5f5f5;
+        height: 210px;
+		padding-top: 20px;
+		border-bottom: 1px rgb(222,222,222) solid;
+		float: none;
+	}
+	.lectureDivLetter h1{
+		font-size: 2rem;
+		
+
+
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
