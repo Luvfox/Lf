@@ -3,7 +3,7 @@
 		height: 565px;
 	}
 	.welcometitleOne{
-		font-size: 2.25rem;
+		font-size: 40px;
 	}
 	.secondBlockMother{
 		height: 555px;
@@ -50,7 +50,7 @@
 		font-size: 10px;
 	}
 	.fifthBlockLeft p{
-		font-size: 1.2rem;
+		font-size: 20px;
 	}
 	.fifthBlockRight{
 		width: 100%;
@@ -91,14 +91,13 @@
         background: #f5f5f5;
         height: 210px;
 		padding-top: 20px;
-		border-bottom: 1px rgb(222,222,222) solid;
 		float: none;
 	}
 	.lectureDivLetter h1{
-		font-size: 2rem;
-		
-
-
+		font-size: 26px;
+	}
+	.lectureMiddleDiv{
+		height:414px;
 	}
 	@media screen and (max-width:980px) {
 		.firstBlockMother{
@@ -139,6 +138,14 @@
 		}
 
 	}*/
+	@media screen and (max-width:870px) {
+		.footerMiddleBottomBottomLeftDiv{
+			width: 388px;
+			margin-left: 0;
+			margin-top: 10px;
+		}
+		
+	}
 	@media screen and (max-width:767px) {
 		/*.headerLiTwo,.headerLiThree,.headerLiFour,.headerLiFive,.headerLiSix,.headerLiSeven,.headerLiEight{*/
 			
@@ -159,6 +166,7 @@
 			background-image: url(../images/bigapple.png);;
 		}
 		.NoneDiv:hover{
+			transition:background-color 3s ease;
 			background-image: url(../images/biggrayapple.png);
 		}
 		.none{
@@ -259,7 +267,7 @@
 	 		display: none;
 	 	}
 	 	.hiddenFooter{
-	 		height: 370px;
+	 		height: 396px;
 	 		background-color: #f1f1f1;
 	 		display: block;
 	 	}
@@ -320,6 +328,7 @@
 		/*.secondBlockMiddleimages{
 			width: 
 		}*/
+
 		.footerMiddleDivBottomBottom{
 			margin-top: 0;
 		}
@@ -328,7 +337,7 @@
 			width: 100%;
 			width: 
 		}
-	 @media screen and (max-width:735px) {
+	 @media screen and (max-width:736px) {
 	 
 	 	.secondBlockMother{
 	 		height: 750px;
@@ -340,6 +349,9 @@
 	 	.fifthBlockRight img{
 	 		width: 50%;
 	 		height: auto;	
+	 	}
+	 	.lectureMiddleDiv{
+	 		height: 320px;
 	 	}
 	 	
 	 	/*.secondBlockimagestureOne , .secondBlockimagestureThree , .secondBlockimagestureFive{
@@ -471,10 +483,10 @@
 	 		display: none: ;
 	 	}*/
 	 	.lectureDiv{
-	 		height: 770px;
+	 		height: 670px;
 	 	}
 	 	.lectureDivLetter{
-	 		margin-top: 386px;
+	 		margin-top: 290px;
 	 	}
 
 	 	.lectureBlockDivBottom{
@@ -489,7 +501,20 @@
 	 		border-top: #dedede 1px solid;
 
 	 	}
-	 	
+	 	.footerMiddleBottomBottomLeftDiv{
+	 		width: 100%;
+	 	}
+	 	.specialFooterAOne{
+    width: 62px!important;
+}
+.specialFooterATwo{
+    width: 62px!important;
+}
+.specialFooterAOne a{
+    width: 62px;
+}
+.footerMiddleBottomBottomLeftDiv div{
+    width: 54px;
 
 	}
 
